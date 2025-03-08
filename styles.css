@@ -1,0 +1,22 @@
+.gameContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 340px;
+    height: 340px;
+    background-color: lightgrey;
+}
+
+  .tile {
+    min-width: calc(300px / 10);
+    min-height: calc(300px / 10);
+    border: outset;
+    border-width: 2px;
+}
+
+  .unarmed {
+    display: flex;
+    background-color: lightgreen;
+    justify-content: center;
+    align-items: center;
+}
